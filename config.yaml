@@ -1,12 +1,12 @@
-baseURL: https://compro.to
+baseURL: https://comprar.to
 languageCode: es-ES
-title: Compro lo mejor
-author: compro.to
+title: comprar lo mejor
+author: comprar.to
 canonifyurls: true
 paginate: 3
 googleAnalytics: UA-6082386-11
 
 params:
-  brand: compro.to
+  brand: comprar.to
   description: Mira bien lo que compras. Compara los mejores productos de cada categoría.
   bgimg: img/alchemy.gif

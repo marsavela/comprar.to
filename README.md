@@ -1,2 +1,2 @@
-# compro.to
-https://compro.to
+# comprar.to
+https://comprar.to

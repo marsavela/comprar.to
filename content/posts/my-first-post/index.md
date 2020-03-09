@@ -17,4 +17,4 @@ resources:
 ---
 # Este es mi primera publicacion
 
-Aquí empezaré a poner y sugerir cosas que yo compro. Nos vemos.
+Aquí empezaré a poner y sugerir cosas que yo creo que merecen la pena comprar. Nos vemos.
