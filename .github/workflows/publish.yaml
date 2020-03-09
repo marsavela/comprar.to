@@ -1,0 +1,31 @@
+name: Generate and publish
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    name: Generate and publish
+    # This job runs on Linux
+    runs-on: ubuntu-latest
+    steps:
+      # To use this repository's private action, you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Fetch gh-pages branch
+        run: |
+          git fetch --depth=1 origin gh-pages
+          git worktree add -B gh-pages public origin/gh-pages
+      - name: Build Hugo
+        uses: docker://klakegg/hugo
+        env: 
+          HUGO_DESTINATION: public
+        with:
+          args: --minify --verbose
+      - name: Publish to gh-pages
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "Publish to gh-pages"
+          cd public
+          git status
+          [ "`git status -s`" ] && git add --all && git commit -m "Publishing to gh-pages "$(date +D%FT%T)
+          git push
