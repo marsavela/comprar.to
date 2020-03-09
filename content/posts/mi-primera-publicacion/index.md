@@ -2,8 +2,8 @@
 title: "My First Post"
 date: 2020-03-06T12:29:20+01:00
 description: ""
-categories: ["TBD"]
-tags: ["TBD"]
+categories: ["Off-Topic"]
+tags: ["Off-Topic"]
 toc: false
 capFirst: true
 displayInMenu: false
@@ -11,9 +11,9 @@ displayInList: true
 draft: false
 resources:
 - name: featuredImage
-  src: ""
+  src: "mi-primera-publicacion.jpg"
   params:
-    description: ""
+    description: "Carrito de la compra"
 ---
 # Este es mi primera publicacion
 
