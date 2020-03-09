@@ -16,7 +16,7 @@
     <h2 class="card-title">{{ .Title }}</h2>
     <p class="card-text">{{ if (isset .Params "description") }}{{ index .Params "description" }}{{ else }}{{ .Summary }}{{ end }}</p>
     <div class="card-subtext muted-text">
-      <p>Publicado el <time datetime="{{ .PublishDate.Format "2006-01-02 12:00" }}">{{ .PublishDate.Format "2 de January 2006" }}</time></p>
+      <p>Publicado el <time datetime="{{ .PublishDate.Format "2006-01-02 12:00" }}">{{ .PublishDate.Day }} de {{ index $.Site.Data.months (printf "%d" .PublishDate.Month) }} de {{ .PublishDate.Year }}</time></p>
       {{ if (isset .Params "categories") }}<p>{{ range .Params.categories }}#{{ . }} {{ end }}</p>{{ end }}
     </div>
   </article>
