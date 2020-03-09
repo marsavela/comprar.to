@@ -15,6 +15,8 @@ jobs:
         run: |
           git fetch --depth=1 origin gh-pages
           git worktree add -B gh-pages public origin/gh-pages
+          rm -rf public/*
+          echo "comprar.to" > public/CNAME
       - name: Build Hugo
         uses: docker://klakegg/hugo
         env: 
