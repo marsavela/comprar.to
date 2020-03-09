@@ -1,7 +1,7 @@
 ---
-title: "My First Post"
+title: "Todo empieza aquí"
 date: 2020-03-06T12:29:20+01:00
-description: ""
+description: "Por algún sitio hay que empezar. Comprar.to empieza aquí"
 categories: ["Off-Topic"]
 tags: ["Off-Topic"]
 toc: false
@@ -11,10 +11,10 @@ displayInList: true
 draft: false
 resources:
 - name: featuredImage
-  src: "mi-primera-publicacion.jpg"
+  src: "todo-ampieza-aqui.jpg"
   params:
     description: "Carrito de la compra"
 ---
 # Este es mi primera publicacion
 
-Aquí empezaré a poner y sugerir cosas que yo creo que merecen la pena comprar. Nos vemos.
+En esta web empezaré a poner y sugerir cosas que yo creo que merecen la pena comprar. Nos vemos.
