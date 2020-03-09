@@ -1,0 +1,12 @@
+baseURL: https://compro.to
+languageCode: es-ES
+title: Compra lo mejor
+author: compro.to
+canonifyurls: true
+paginate: 3
+googleAnalytics: UA-6082386-11
+
+params:
+  brand: compro.to
+  description: aether Hugo theme for blogs
+  bgimg: img/alchemy.gif
