@@ -5,7 +5,7 @@ description: "Por algún sitio hay que empezar. Comprar.to empieza aquí"
 categories: ["Off-Topic"]
 tags: ["Off-Topic"]
 toc: false
-capFirst: true
+capFirst: false
 displayInMenu: false
 displayInList: true
 draft: false
