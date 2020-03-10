@@ -1,0 +1,38 @@
+/* Callouts */
+.caution, .note, .warning {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    font-style: initial;
+}
+
+.caution {
+    border-left-color: #f0ad4e;
+}
+
+.note {
+    border-left-color: #428bca;
+}
+
+.warning {
+    border-left-color: #d9534f;
+}
+
+/* wide-image */
+
+.figure.fullwidth {
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+}
+.caption {
+    display: block;
+    font-size: .8rem;
+    color: #81929d;
+    text-align: center;
+    /* font-style: italic; */
+    margin-top: -1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}

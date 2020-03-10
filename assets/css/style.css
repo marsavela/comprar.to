@@ -16,10 +16,6 @@ body {
 p {
     margin: 1.5em 0;
 }
-b,
-strong {
-    font-weight: normal;
-}
 .nav-bar {
     max-width: 50rem;
     width: 100%;
