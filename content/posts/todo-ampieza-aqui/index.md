@@ -15,6 +15,6 @@ resources:
   params:
     description: "Carrito de la compra"
 ---
-# Esta es mi primera publicacion
+# Esta es mi primera publicación
 
 En esta web empezaré a poner y sugerir cosas que yo creo que merecen la pena comprar. Nos vemos.
