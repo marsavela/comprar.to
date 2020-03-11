@@ -1,0 +1,18 @@
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="{{ .Get "id" }}" class="item blog-item" rel="bookmark" >
+  {{ $image := $.Page.Resources.GetMatch (.Get "image") }}
+  <div class="item-img-container">
+    <picture>
+      {{ $thumbnail := $image.Fit "500x500 Lanczos" }}
+      <source srcset="{{ $thumbnail.Permalink }}">
+      <img src="{{ $thumbnail.Permalink }}" class="item-img" {{ if .Get "description" -}} alt="{{ .Get "description" }}" {{- end }}>
+    </picture>
+  </div>
+  <article class="item-body">
+    <h3 class="item-title">{{ .Get "title" }}</h3>
+    <p class="item-description">{{ if .Get "description" }}{{ .Get "description" }}{{ end }}</p>
+    <div class="item-subtext muted-text">
+      <p>En Amazon.es desde {{ .Get "price" }} euros</p>
+    </div>
+  </article>
+</a>

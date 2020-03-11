@@ -21,12 +21,7 @@
 }
 
 /* wide-image */
-
-.figure.fullwidth {
-    margin-left: -1.2rem;
-    margin-right: -1.2rem;
-}
-.caption {
+.figure.caption {
     display: block;
     font-size: .8rem;
     color: #81929d;
@@ -35,4 +30,96 @@
     margin-top: -1rem;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+/* Table Item */
+.table-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 63rem; */
+}
+
+/* Item */
+.item {
+    flex-grow: 1;
+    max-width: 17rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.19), 0 0.3rem 0.3rem -0.1rem rgba(0,0,0,0.23);
+}
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.item-img-container {
+    position: relative;
+    padding: .5rem;
+}
+.item-img {
+    border-radius: 0.3rem 0.3rem 0 0;
+    margin: 0 0 -0.28em 0;
+    max-height: 15em;
+    object-fit: cover;
+}
+.item-img-overlay {
+    border-radius: 0.3rem 0.3rem 0 0;
+    position: absolute;
+    top: 0;
+    font-size: 1.27em;
+    text-align: center;
+    padding: 1em 0 0.8em 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+}
+.item-body {
+    padding: 1em;
+}
+.item-title {
+    margin: 0;
+    line-height: 1.2;
+}
+.item-description {
+    margin: 1em 0;
+    line-height: 1.5;
+}
+.item-subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 0.8em;
+}
+.item-subtext > p {
+    margin: 0;
+}
+.item-subtext > p + p {
+    margin-left: 1em;
+    padding-left: 1em;
+    word-spacing: 0.5em;
+    border-left: thin solid #7a7b7c;
+}
+@media screen and (pointer: coarse) {
+ .item-hover {
+    transform: scale(0.95);
+    box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
+    }
+}
+@media not screen and (pointer: coarse) {
+    .item:hover {
+        transform: scale(0.97);
+        box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
+    }
+    .item:active {
+        transform: scale(1);
+    }
 }
