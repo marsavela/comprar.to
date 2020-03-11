@@ -20,6 +20,8 @@ Una tarjeta microSD te permite mover fácilmente tus archivos, fotos y música d
 
 Con la cantidad de contenido que consumimos, es normal que nos quedemos cortos con el almacenamiento de nuestros móviles. Encontrar la mejor memoría SD puede ser una tarea tediosa. Afortunádamente, el abaníco de posibilidades es muy grande, por tanto encontrar las mejores no es fácil. Aqui podeis encontrar las mejores tarjetas de memória para tu móvil.
 
+<!--more -->
+
 {{< table-items >}}
 {{< item image="samsung-evo-select-128gb-crop.jpg" title="La mejor combinación" description="Esta ha sido nuestra tarjeta preferida por tres razones: es confiable, es rápida y sale a la venta con frecuencia. Está disponible en capacidades de 32 GB a 512 GB, con velocidades de escritura de 128 GB y más de 100 MB/s de lectura y 90 MB/s de velocidad de escritura." >}}
 {{< item image="sandisk-128-cropped.jpg" title="Ultra asequible" description="SanDisk tiene tarjetas más potentes, pero para la mayoría de las personas, la Ultra es la respuesta correcta. Tiene velocidades de lectura de hasta 100 MB/s para acceder a películas y música descargadas, y puede comprarlo en tamaños de 8 GB a 512 GB." >}}
