@@ -17,7 +17,7 @@ p {
     margin: 1.5em 0;
 }
 .nav-bar {
-    max-width: 50rem;
+    max-width: 60rem;
     width: 100%;
     padding: 0.4em 0;
     display: flex;
@@ -135,7 +135,7 @@ p {
     padding: 2em 0;
     margin-bottom: 2em;
     width: 100%;
-    max-width: 52rem;
+    max-width: 62rem;
     border-radius: 0.3rem;
     transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1);
     box-shadow: 0 0.7rem 1.4rem 0 rgba(0,0,0,0.25), 0 0.5rem 0.5rem 0 rgba(0,0,0,0.22);
@@ -160,10 +160,10 @@ p {
     line-height: 1.6em;
 }
 .card-container {
-    max-width: 49rem;
+    max-width: 59rem;
 }
 .card-container > a:first-of-type {
-    margin-top: 5em;
+    margin-top: 2em;
 }
 .card {
     display: block;
