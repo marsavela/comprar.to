@@ -1,15 +1,11 @@
 /* Callouts */
-.caution, .note, .warning, .amazon-link {
+.caution, .note, .warning {
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #eee;
     border-left-width: 5px;
     border-radius: 3px;
     font-style: initial;
-}
-
-.amazon-link {
-    border-left-color: #ff9900;
 }
 
 .caution {
