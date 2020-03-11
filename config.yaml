@@ -6,6 +6,9 @@ canonifyurls: true
 paginate: 6
 googleAnalytics: UA-6082386-11
 
+permalinks:
+  posts: /:title
+
 params:
   brand: comprar.to
   description: Mira bien lo que compras. Compara los mejores productos de cada categoría.
