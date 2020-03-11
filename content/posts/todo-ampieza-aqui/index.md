@@ -1,7 +1,7 @@
 ---
 title: "Todo empieza aquí"
 date: 2020-03-06T12:29:20+01:00
-description: "Por algún sitio hay que empezar. Comprar.to empieza aquí"
+description: "Por algún sitio hay que empezar. Comprar.to empieza aquí."
 categories: ["Off-Topic"]
 tags: ["Off-Topic"]
 toc: false
