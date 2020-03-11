@@ -1,7 +1,6 @@
 ---
 title: "Las mejores tarjetas microSD para Android en 2020"
 date: 2020-03-10T17:25:47+01:00
-description: ""
 categories: ["Almacenamiento", "Telefonía"]
 tags: ["microsd", "movil", "telefono", "almacenamiento", "mejor", "compra", "sandisk", "samsung"]
 toc: false
@@ -18,9 +17,9 @@ resources:
 
 Una tarjeta microSD te permite mover fácilmente tus archivos, fotos y música de un dispositivo a otro sin tener que depender de Wi-Fi estable o datos costosos. También ayuda si te gusta cargar tu teléfono con aplicaciones, música y películas si no viene con mucho almacenamiento interno.
 
-Con la cantidad de contenido que consumimos, es normal que nos quedemos cortos con el almacenamiento de nuestros móviles. Encontrar la mejor memoría SD puede ser una tarea tediosa. Afortunádamente, el abaníco de posibilidades es muy grande, por tanto encontrar las mejores no es fácil. Aqui podeis encontrar las mejores tarjetas de memória para tu móvil.
+<!--more-->
 
-<!--more -->
+Con la cantidad de contenido que consumimos, es normal que nos quedemos cortos con el almacenamiento de nuestros móviles. Encontrar la mejor memoría SD puede ser una tarea tediosa. Afortunádamente, el abaníco de posibilidades es muy grande, por tanto encontrar las mejores no es fácil. Aqui podeis encontrar las mejores tarjetas de memória para tu móvil.
 
 {{< table-items >}}
 {{< item image="samsung-evo-select-128gb-crop.jpg" title="La mejor combinación" description="Esta ha sido nuestra tarjeta preferida por tres razones: es confiable, es rápida y sale a la venta con frecuencia. Está disponible en capacidades de 32 GB a 512 GB, con velocidades de escritura de 128 GB y más de 100 MB/s de lectura y 90 MB/s de velocidad de escritura." >}}
