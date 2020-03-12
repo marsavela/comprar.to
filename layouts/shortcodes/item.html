@@ -16,9 +16,9 @@
       <span class="item-caption">{{ .Get "name" }}</span>
     </a>
     <div class="item-description">{{ if .Get "description" }}{{ .Get "description" }}{{ end }}</div>
-    <div class="item-subtext muted-text">
+    <div class="item-subtext muted-text item-button">
       <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
-        En Amazon.es desde {{ .Get "price" }}€
+        En <b>Amazon.es</b> desde {{ .Get "price" }}€
       </a>
     </div>
   </article>
