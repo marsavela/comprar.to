@@ -22,7 +22,7 @@ jobs:
         env: 
           HUGO_DESTINATION: public
         with:
-          args: --verbose
+          args: --minify --verbose
       - name: Publish to gh-pages
         run: |
           git config user.email "actions@github.com"
