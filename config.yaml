@@ -5,6 +5,7 @@ author: comprar.to
 canonifyurls: true
 paginate: 6
 googleAnalytics: UA-6082386-11
+enableRobotsTXT: yes
 
 permalinks:
   posts: /:title
