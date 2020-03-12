@@ -15,11 +15,11 @@
     <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
       <span class="item-caption">{{ .Get "name" }}</span>
     </a>
-    <p class="item-description">{{ if .Get "description" }}{{ .Get "description" }}{{ end }}</p>
+    <div class="item-description">{{ if .Get "description" }}{{ .Get "description" }}{{ end }}</div>
     <div class="item-subtext muted-text">
-      <p></p><a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
+      <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
         En Amazon.es desde {{ .Get "price" }}€
-      </a></p>
+      </a>
     </div>
   </article>
 </div>
