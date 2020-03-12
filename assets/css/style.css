@@ -21,7 +21,7 @@ p {
     width: 100%;
     padding: 0.4em 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .nav-header {
@@ -30,7 +30,7 @@ p {
 .nav-text {
     text-decoration: none;
     z-index: 105;
-    font-size: 0.8em;
+    font-size: 1.8em;
 }
 .hamburger-menu {
     display: block;
@@ -132,8 +132,9 @@ p {
 }
 .content {
     background-color: white;
-    padding: 2em 0;
+    padding: 1em 0;
     margin-bottom: 2em;
+    margin-top: 1em;
     width: 100%;
     max-width: 63rem;
     border-radius: 0.3rem;
