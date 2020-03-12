@@ -3,7 +3,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ if not .IsHome }}{{with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}{{end}}" />
   {{ if (fileExists "static/apple-touch-icon.png") -}}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   {{ end -}}
