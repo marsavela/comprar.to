@@ -127,12 +127,11 @@
     color: white;
 }
 .item-button:hover > a {
-    color: black;
+    color: #146EB4;
 }
 .item-button:hover {
-    border: 2px solid #FF9900; 
+    border: 2px solid #146EB4; 
     background-color: white;
-    color: black;
 }
 @media screen and (pointer: coarse) {
  .item-hover {
