@@ -10,7 +10,7 @@ displayInMenu: false
 displayInList: true
 draft: true
 resources:
-- name: featuredImage
+- name: cover
   src: ""
   params:
     description: ""

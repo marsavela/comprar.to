@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ if not .IsHome }}{{with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}{{end}}" />
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
   {{ if (fileExists "static/apple-touch-icon.png") -}}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   {{ end -}}
@@ -28,7 +30,6 @@
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  {{ template "_internal/google_analytics.html" . }}
   {{ if isset $.Site.Params "bgimg" -}}
   <style>
     body {

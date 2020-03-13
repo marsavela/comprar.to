@@ -16,7 +16,7 @@ categories = [
     "golang",
 ]
 [[resources]]
-  name = "featuredImage"
+  name = "cover"
   src = "lucas-benjamin-565254-unsplash.jpg"
   [resources.params]
     description = "Alt description for the featured image"

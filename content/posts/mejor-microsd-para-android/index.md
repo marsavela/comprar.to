@@ -9,7 +9,7 @@ displayInMenu: false
 displayInList: true
 draft: false
 resources:
-- name: featuredImage
+- name: cover
   src: "Galaxy-S8-sd.jpg"
   params:
     description: "Muesca de la tarjeta de memória del Galaxy S8"

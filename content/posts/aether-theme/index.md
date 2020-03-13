@@ -8,7 +8,7 @@ displayInMenu: false
 displayInList: true
 draft: true
 resources:
-- name: featuredImage
+- name: cover
   src: "mdd-macbook.jpg"
   params:
     description: "A MacBook showing a website using the aether theme"
@@ -60,8 +60,8 @@ title: "The title of your post"
 date: date the post was generated
 description: "Description of the post (displayed in the post's card)"
 categories: ["add comma separated categories here", "another category"]
-featuredImage: "url to the page's featured image"
-featuredImageDescription: "Description for the featured image, used as the alt text"
+cover: "url to the page's featured image"
+coverDescription: "Description for the featured image, used as the alt text"
 capFirst: if the first letter should be a large decorative capital letter (true, false)
 displayInMenu: if post is listed in the navigation menu (true, false)
 displayInList: if post is listed on the home page and category pages (true, false)

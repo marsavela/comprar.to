@@ -1,6 +1,6 @@
 <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="{{ .Permalink }}" class="card blog-card" rel="bookmark" >
-  {{ with .Resources.GetMatch "featuredImage" }}
+  {{ with .Resources.GetMatch "cover" }}
   <div class="card-img-container">
     <p class="card-img-overlay">Siguiente Publicación</p>
     <picture>

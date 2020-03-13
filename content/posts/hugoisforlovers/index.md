@@ -1,6 +1,6 @@
 +++
 title = "Getting Started with Hugo"
-featuredImage = "img/andrew-neel-609846-unsplash.jpg"
+cover = "img/andrew-neel-609846-unsplash.jpg"
 displayInMenu = false
 displayInList = true
 draft = true
@@ -16,7 +16,7 @@ categories = [
     "golang",
 ]
 [[resources]]
-  name = "featuredImage"
+  name = "cover"
   src = "andrew-neel-609846-unsplash.jpg"
 +++
 

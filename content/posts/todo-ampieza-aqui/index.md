@@ -10,7 +10,7 @@ displayInMenu: false
 displayInList: true
 draft: false
 resources:
-- name: featuredImage
+- name: cover
   src: "todo-ampieza-aqui.jpg"
   params:
     description: "Carrito de la compra"

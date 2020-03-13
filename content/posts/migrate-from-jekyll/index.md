@@ -5,7 +5,7 @@ displayInList: true
 draft: true
 title: Migrate to Hugo from Jekyll
 resources:
-- name: featuredImage
+- name: cover
   src: "yan-ots-257617-unsplash.jpg"
 ---
 

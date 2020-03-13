@@ -11,7 +11,7 @@
         {{ if isset .Params "date" }}<p class="post-date">Publicado el <time
             datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Day }} de {{ index $.Site.Data.months (printf "%d" .Date.Month) }} de {{ .Date.Year }}</time></p>{{ end }}
       </header>
-      {{ with .Resources.GetMatch "featuredImage" -}}
+      {{ with .Resources.GetMatch "cover" -}}
       <picture class="post-figure">
         {{ with $.Resources.GetMatch (replace (.Title) (path.Ext (.Title)) ".webp") -}}
         <source srcset="{{ .Permalink }}" type="image/webp">
