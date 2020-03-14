@@ -1,0 +1,41 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ if not .IsHome }}{{with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}{{end}}" />
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ if (fileExists "static/apple-touch-icon.png") -}}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  {{ end -}}
+  {{ if (fileExists "static/favicon-32x32.png") -}}
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  {{ end -}}
+  {{ if (fileExists "static/favicon-16x16.png") -}}
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  {{ end -}}
+  {{ if (fileExists "static/site.webmanifest") -}}
+  <link rel="manifest" href="/site.webmanifest">
+  {{ end -}}
+  {{ if (fileExists "static/safari-pinned-tab.svg") -}}
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  {{ end -}}
+  {{ if isset $.Site.Params "bgimg" -}}
+  {{ $mainStyle := resources.Get "css/style.css" -}}
+  {{ $overrideStyle := resources.Get "css/override.css" -}}
+  {{ $shortcodesStyle := resources.Get "css/shortcodes.css" }}
+  {{ $style := slice $mainStyle $overrideStyle $shortcodesStyle | resources.Concat "css/concated.css" | minify }}
+  <style amp-custom>
+    body {
+      background: #ecedef url("{{ $.Site.Params.bgimg | absURL | safeCSS }}") repeat;
+    }
+    {{ $style.Content | safeCSS }}
+  </style>
+  {{- end }}
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  {{ with  .OutputFormats.Get "html" -}}
+  <link rel="canonical" href="{{ .RelPermalink }}">
+  {{- end }}
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>

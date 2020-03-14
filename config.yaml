@@ -10,6 +10,11 @@ enableRobotsTXT: yes
 permalinks:
   posts: /:title
 
+outputs:
+  page:
+    - HTML
+    - AMP
+
 params:
   brand: comprar.to
   description: Mira bien lo que compras. Compara los mejores productos de cada categoría.

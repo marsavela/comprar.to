@@ -271,18 +271,18 @@ p {
     transform: scale(1);
 }
 .side-gutter {
-    margin-left: 1.2rem !important;
-    margin-right: 1.2rem !important;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
 }
 .side-padding {
-    padding-left: 1.2rem !important;
-    padding-right: 1.2rem !important;
-    box-sizing: border-box !important;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    box-sizing: border-box;
 }
 .side-text-padding {
-    padding-left: 1.2rem !important;
-    padding-right: 1.2rem !important;
-    box-sizing: border-box !important;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    box-sizing: border-box;
 }
 .small-pic {
     display: block;

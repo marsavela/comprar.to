@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ⚡ lang="{{ .Site.LanguageCode }}" dir="ltr">
+{{ partial "head.amp" . }}
+<body class="single-body">
+  {{ partial "nav-bar.html" . }}
+  <main class="content">
+    <article class="post side-text-padding {{ if ne .Params.capFirst false }}dropcase{{ end }}">
+      <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{ if isset .Params "date" }}<p class="post-date">Publicado el <time
+            datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Day }} de {{ index $.Site.Data.months (printf "%d" .Date.Month) }} de {{ .Date.Year }}</time></p>{{ end }}
+      </header>
+      {{ with .Resources.GetMatch "cover" -}}
+      {{ $featured := .Resize "800x Lanczos" }}
+      <noscript><amp-img src="{{ $featured.Permalink }}" {{ with .Params.description -}} alt="{{ . }}" {{- end }}
+        height="{{ $featured.Height }}" width="{{ $featured.Width }}" layout="responsive" ></amp-img></noscript>
+      {{- end }}
+      {{ if .Params.toc -}}
+      <h2>Contents</h2>
+      {{ .TableOfContents }}
+      {{- end }}
+      {{ .Content }}
+    </article>
+    {{ template "_internal/disqus.html" . }}
+  </main>
+</body>
+
+</html>

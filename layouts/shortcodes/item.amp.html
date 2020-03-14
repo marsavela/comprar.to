@@ -1,13 +1,11 @@
-<div class="item blog-item">
+<div class="item">
   {{ $image := $.Page.Resources.GetMatch (.Get "image") }}
   <div class="item-img-container">
-    <picture>
-      {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
-      <source srcset="{{ $thumbnail.Permalink }}">
-      <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
-        <img src="{{ $thumbnail.Permalink }}" class="item-img" {{ if .Get "description" -}} alt="{{ .Get "description" }}" {{- end }}>
-      </a>
-    </picture>
+    {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
+    <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
+      <noscript><amp-img src="{{ $thumbnail.Permalink }}" class="item-img" {{ if .Get "description" -}} alt="{{ .Get "description" }}"{{- end }}
+        height="{{ $thumbnail.Height }}" width="{{ $thumbnail.Width }}" layout="responsive" ></noscript>
+    </a>
   </div>
   <article class="item-body">
     <h3 class="item-title">{{ .Get "title" }}</h3>
