@@ -28,9 +28,10 @@ p {
     margin: 0;
 }
 .nav-text {
-    text-decoration: none;
+    text-decoration: underline;
     z-index: 105;
-    font-size: 1.8em;
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 .hamburger-menu {
     display: block;
