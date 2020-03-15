@@ -14,7 +14,7 @@
   {{- end }}
   <article class="card-body">
     <h2 class="card-title">{{ .Title }}</h2>
-    <p class="card-text">{{ if (isset .Params "description") }}{{ index .Params "description" }}{{ else }}{{ .Summary }}{{ end }}</p>
+    <p class="card-text">{{ if (isset .Params "description") }}{{ index .Params "description" }}{{ else }}{{ .Summary | plainify }}{{ end -}}</p>
     <div class="card-subtext muted-text">
       <p>Publicado el <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Day }} de {{ index $.Site.Data.months (printf "%d" .Date.Month) }} de {{ .Date.Year }}</time></p>
       {{ if (isset .Params "categories") }}<p>{{ range .Params.categories }}#{{ . | urlize | title }} {{ end }}</p>{{ end }}
