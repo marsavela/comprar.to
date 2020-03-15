@@ -12,8 +12,8 @@
       </header>
       {{ with .Resources.GetMatch "cover" -}}
       {{ $featured := .Resize "800x Lanczos" }}
-      <noscript><amp-img src="{{ $featured.Permalink }}" {{ with .Params.description -}} alt="{{ . }}" {{- end }}
-        height="{{ $featured.Height }}" width="{{ $featured.Width }}" layout="responsive" ></amp-img></noscript>
+      <amp-img src="{{ $featured.Permalink }}" {{ with .Params.description -}} alt="{{ . }}" {{- end }}
+        height="{{ $featured.Height }}" width="{{ $featured.Width }}" layout="responsive" ></amp-img>
       {{- end }}
       {{ if .Params.toc -}}
       <h2>Contents</h2>
