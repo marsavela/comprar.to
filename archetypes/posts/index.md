@@ -1,7 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: ""
 categories: ["TBD"]
 tags: ["TBD"]
 toc: false
