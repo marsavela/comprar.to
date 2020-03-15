@@ -3,8 +3,8 @@
   <div class="item-img-container">
     {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
     <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
-      <noscript><amp-img src="{{ $thumbnail.Permalink }}" class="item-img" {{ if .Get "description" -}} alt="{{ .Get "description" }}"{{- end }}
-        height="{{ $thumbnail.Height }}" width="{{ $thumbnail.Width }}" layout="responsive" ></noscript>
+      <amp-img src="{{ $thumbnail.Permalink }}" class="item-img" {{ if .Get "description" -}} alt="{{ .Get "description" }}"{{- end }}
+        height="{{ $thumbnail.Height }}" width="{{ $thumbnail.Width }}" layout="responsive">
     </a>
   </div>
   <article class="item-body">
