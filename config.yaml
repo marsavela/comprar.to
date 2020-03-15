@@ -1,6 +1,6 @@
 baseURL: https://comprar.to
 languageCode: es-ES
-title: comprar lo mejor
+title: Comprar Todo Lo Que Me Gusta
 author: comprar.to
 canonifyurls: true
 paginate: 6
@@ -17,5 +17,6 @@ outputs:
 
 params:
   brand: comprar.to
+  title: Comprar Todo Lo Que Me Gusta
   description: Mira bien lo que compras. Compara los mejores productos de cada categoría.
   bgimg: img/alchemy.gif
