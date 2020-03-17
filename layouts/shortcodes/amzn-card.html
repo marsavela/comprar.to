@@ -1,0 +1,26 @@
+<div class="amzn-card">
+  {{ $image := $.Page.Resources.GetMatch (.Get "name") }}
+  <div class="amzn-card-img-container">
+    <picture>
+      {{ $thumbnail := $image.Fit "400x300 Lanczos" }}
+      <source srcset="{{ $thumbnail.Permalink }}">
+      <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
+        <img src="{{ $thumbnail.Permalink }}" class="item-img" {{ if .Get "name" -}} alt="{{ .Get "name" }}" {{- end }}>
+      </a>
+    </picture>
+  </div>
+  <article class="amzn-card-body">
+    <h3 class="amzn-card-title">{{ .Get "title" }}</h3>
+    <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
+      <span class="amzn-card-caption">{{ .Get "name" }}</span>
+    </a>
+    <div class="amzn-card-description">{{ trim .Inner " \n" | markdownify }}</div>
+    {{ if .Get "price" -}}
+    <div class="amzn-card-subtext muted-text amzn-card-button">
+      <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
+        En <b>Amazon.es</b> desde {{ .Get "price" }}€
+      </a>
+    </div>
+    {{- end }}
+  </article>
+</div>

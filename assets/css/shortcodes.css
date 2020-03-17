@@ -131,6 +131,88 @@
     border: 2px solid #146EB4; 
     background-color: white;
 }
+
+/* amzn-card */
+.amzn-card {
+    /* padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #FF9900;
+    border-left-width: 5px;
+    border-radius: 3px;
+    font-style: initial; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+    max-width: 20rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.19), 0 0.3rem 0.3rem -0.1rem rgba(0,0,0,0.23);
+    transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1);
+}
+.amzn-card-img-container {
+    position: relative;
+}
+.amzn-card-img {
+    border-radius: 0.3rem 0.3rem 0 0;
+    margin: 0 0 -0.28em 0;
+    max-height: 10em;
+    object-fit: cover;
+}
+.amzn-card-body {
+    padding: 1em;
+}
+.amzn-card-title {
+    margin: 0;
+    line-height: 1.2;
+}
+.amzn-card-text {
+    margin: 1em 0;
+    line-height: 1.5;
+}
+.amzn-card-subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 0.8em;
+}
+.amzn-card-subtext > p {
+    margin: 0;
+}
+.amzn-card-subtext > p + p {
+    margin-left: 1em;
+    padding-left: 1em;
+    word-spacing: 0.5em;
+    border-left: thin solid #7a7b7c;
+}
+.amzn-card-button {
+    background-color: #FF9900;
+    border: 2px solid #FF9900; 
+    border-radius: 3px;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.amzn-card-button > a {
+    color: white;
+}
+.amzn-card-button:hover > a {
+    color: #146EB4;
+}
+.amzn-card-button:hover {
+    border: 2px solid #146EB4; 
+    background-color: white;
+}
+
 @media screen and (pointer: coarse) {
  .item-hover {
     transform: scale(0.95);
@@ -143,6 +225,13 @@
         box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
     }
     .item:active {
+        transform: scale(1);
+    }
+    .amzn-card:hover {
+        transform: scale(0.97);
+        box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
+    }
+    .amzn-card:active {
         transform: scale(1);
     }
 }

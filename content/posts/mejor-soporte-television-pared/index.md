@@ -15,16 +15,19 @@ images:
 resources:
 - name: cover
   src: "clean-livingroom.jpg"
+  title: "Salón moderno con la televisión en la pared"
   params:
     description: "Salón moderno con la televisión en la pared"
 - name: salon verde
   src: "living-room-green.jpg"
+  title: "Salón moderno con la pared verde y la televisión en la pared"
   params:
-    description: "Salón moderno con la televisión en la pared"
+    description: "Salón moderno con la pared verde y la televisión en la pared"
 - name: vogel base
   src: "vogels-base-05l.jpg"
+  title: "Soporte de pared Vogel's Base 05L"
   params:
-    description: "Salón moderno con la televisión en la pared"
+    description: "Soporte de pared Vogel's Base 05L"
 ---
 
 Así que has decidido montar tu televisor en la pared. Puede ser porque no tienes espacio para un mueble, o simplemente porque prefieres la estética de un televisor fijado a la pared, o para que el televisor no se caiga cuando un niño pequeño lo golpee.
@@ -53,3 +56,8 @@ Nosotros hemos elegido el soporte  {{< amzn-link "Vogel's Base 05 L" B00E20KOBY 
 
 Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos de los usuarios que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
 
+{{< amzn-card name="cover" price="55" >}}
+
+Test this to me.
+
+{{< /amzn-card >}}
