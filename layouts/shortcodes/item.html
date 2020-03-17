@@ -1,5 +1,5 @@
-<div class="item blog-item">
-  {{ $image := $.Page.Resources.GetMatch (.Get "image") }}
+<div class="item">
+  {{ $image := $.Page.Resources.GetMatch (.Get "name") }}
   <div class="item-img-container">
     <picture>
       {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
