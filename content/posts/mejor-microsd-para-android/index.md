@@ -19,30 +19,37 @@ images:
 resources:
 - name: cover
   src: "Galaxy-S8-sd.jpg"
+  title: "Muesca de la tarjeta de memória del Galaxy S8"
   params:
     description: "Muesca de la tarjeta de memória del Galaxy S8"
 - name: Samsung EVO Select
   src: "samsung-evo-select-32gb-crop.jpg"
+  title: "Tarjeta de memória Samsung EVO Select"
   params:
     description: "Tarjeta de memória Samsung EVO Select"
 - name: SanDisk Ultra
   src: "sandisk-16gb-render.jpg"
+  title: "Tarjeta de memória SanDisk Ultra"
   params:
     description: "Tarjeta de memória SanDisk Ultra"
 - name: PNY PRO Elite
   src: "pny-pro-elite-cropped.jpg"
+  title: "Tarjeta de memória PNY PRO Elite"
   params:
     description: "Tarjeta de memória PNY PRO Elite"
 - name: Samsung PRO Endurance
   src: "samsung-pro-endurance-cropped.jpg"
+  title: "Tarjeta de memória Samsung PRO Endurance"
   params:
     description: "Tarjeta de memória Samsung PRO Endurance"
 - name: Lexar Professional 1000x
   src: "lexar-professional-32-gb-microsd-card.jpg"
+  title: "Tarjeta de memória Lexar Professional 1000x"
   params:
     description: "Tarjeta de memória Lexar Professional 1000x"
 - name: SanDisk Extreme
   src: "sandisk-extreme-32gb.jpg"
+  title: "Tarjeta de memória SanDisk Extreme"
   params:
     description: "Tarjeta de memória SanDisk Extreme"
 ---
