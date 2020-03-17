@@ -8,11 +8,43 @@ capFirst: false
 displayInMenu: false
 displayInList: true
 draft: false
+images:
+- Galaxy-S8-sd.jpg
+- lexar-professional-32-gb-microsd-card.jpg
+- sandisk-extreme-32gb.jpg
+- sandisk-16gb-render.jpg
+- samsung-pro-endurance-cropped.jpg
+- samsung-evo-select-32gb-crop.jpg
+- pny-pro-elite-cropped.jpg
 resources:
 - name: cover
   src: "Galaxy-S8-sd.jpg"
   params:
     description: "Muesca de la tarjeta de memória del Galaxy S8"
+- name: Samsung EVO Select
+  src: "samsung-evo-select-32gb-crop.jpg"
+  params:
+    description: "Tarjeta de memória Samsung EVO Select"
+- name: SanDisk Ultra
+  src: "sandisk-16gb-render.jpg"
+  params:
+    description: "Tarjeta de memória SanDisk Ultra"
+- name: PNY PRO Elite
+  src: "pny-pro-elite-cropped.jpg"
+  params:
+    description: "Tarjeta de memória PNY PRO Elite"
+- name: Samsung PRO Endurance
+  src: "samsung-pro-endurance-cropped.jpg"
+  params:
+    description: "Tarjeta de memória Samsung PRO Endurance"
+- name: Lexar Professional 1000x
+  src: "lexar-professional-32-gb-microsd-card.jpg"
+  params:
+    description: "Tarjeta de memória Lexar Professional 1000x"
+- name: SanDisk Extreme
+  src: "sandisk-extreme-32gb.jpg"
+  params:
+    description: "Tarjeta de memória SanDisk Extreme"
 ---
 
 Una tarjeta microSD te permite mover fácilmente tus archivos, fotos y música de un dispositivo a otro sin tener que depender de Wi-Fi estable o datos costosos. También ayuda si te gusta cargar tu teléfono con aplicaciones, música y películas si no viene con mucho almacenamiento interno.
