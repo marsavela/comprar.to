@@ -17,20 +17,20 @@
                     smartfloat-right
                 {{- end -}}
             {{- end }}"
-            {{- with .Get "alt" }} alt="{{ . }}" {{ end -}}
+            {{- with $image.Params.description }} alt="{{ . }}" {{ else }} alt="{{ $image.Title }}" {{ end -}}
             {{- with .Get "width" }} style="width: {{ . }};" {{- end -}}
         />
     {{ else }}
         <source srcset="{{ $image.Permalink }}">
         <img src="{{ $image.Permalink }}" class="small-img {{ if isset .Params "smartfloat" -}}
-                {{- if eq .Params.smartfloat "left" -}}
-                    smartfloat-left
-                {{- else if eq .Params.smartfloat "right" -}}
-                    smartfloat-right
-                {{- end -}}
-            {{- end }}"
-            {{- with .Get "alt" }} alt="{{ . }}" {{ end -}}
-            {{- with .Get "width" }} style="width: {{ . }};" {{- end -}}
+            {{- if eq .Params.smartfloat "left" -}}
+                smartfloat-left
+            {{- else if eq .Params.smartfloat "right" -}}
+                smartfloat-right
+            {{- end -}}
+        {{- end }}"
+        {{- with $image.Params.description }} alt="{{ . }}" {{ else }} alt="{{ $image.Title }}" {{ end -}}
+        {{- with .Get "width" }} style="width: {{ . }};" {{- end -}}
         />
     {{- end }}
 </picture>
