@@ -7,10 +7,10 @@
         {{- end }}
         {{ $resized := $image.Resize (printf "%sx Lanczos" ($.Scratch.Get "imgwidth")) }}
         <amp-img src="{{ $resized.Permalink }}" class="figure-img"
-            {{- with .Get "alt" }} alt="{{ . }}" {{ end -}} >
+        {{ if .Params.description }} alt="{{ .Params.description }}" {{ end -}} >
     {{ else }}
         <amp-img src="{{ $image.Permalink }}" class="figure-img"
-            {{- with .Get "alt" }} alt="{{ . }}" {{ end -}} >
-        {{ with (.Get "description") }}<span class="caption">{{ . }}</span>{{ end }}
+        {{ if .Params.description }} alt="{{ .Params.description }}" {{ end -}} >
+        {{ with (.Get "caption") }}<span class="caption">{{ . }}</span>{{ end }}
     {{- end }}
 <article class="post side-padding">
