@@ -3,7 +3,10 @@
   <div class="shortcode-card-img-container">
     {{ $thumbnail := $image.Fit "400x300 Lanczos" }}
     <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21">
-      <amp-img src="{{ $thumbnail.Permalink }}" class="shortcode-card-img amzn-card-img" {{ if .Get "name" -}} alt="{{ .Get "name" }}"{{- end }}
+      <amp-img src="{{ $thumbnail.Permalink }}" class="shortcode-card-img amzn-card-img"
+      {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
+      {{ else }} alt="{{ $image.Title }}"
+      {{ end -}}
       height="{{ $thumbnail.Height }}" width="{{ $thumbnail.Width }}" layout="responsive">
     </a>
   </div>
