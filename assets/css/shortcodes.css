@@ -40,14 +40,12 @@
     /* max-width: 63rem; */
 }
 
-/* Item */
-.item {
+/* Common shortcode CSS */
+.shortcode-card {
     display: flex;
-    flex-direction: column;
     align-items: stretch;
     flex-grow: 1;
-    max-width: 20rem;
-    margin: 1rem;
+    margin: .5rem;
     box-sizing: border-box;
     background-color: white;
     text-decoration: none;
@@ -56,59 +54,42 @@
     box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.19), 0 0.3rem 0.3rem -0.1rem rgba(0,0,0,0.23);
     transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1);
 }
-.item-img-container {
+.shortcode-card-img-container {
     position: relative;
-    padding: .5rem;
 }
-.item-img {
-    border-radius: 0.3rem 0.3rem 0 0;
+.shortcode-card-img {
     margin: 0 0 -0.28em 0;
-    max-height: 15em;
     object-fit: cover;
 }
-.item-img-overlay {
-    border-radius: 0.3rem 0.3rem 0 0;
-    position: absolute;
-    top: 0;
-    font-size: 1.27em;
-    text-align: center;
-    padding: 1em 0 0.8em 0;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 5;
-}
-.item-body {
+.shortcode-card-body {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
     padding: 1em;
 }
-.item-body a {
+.shortcode-card-body a {
     text-decoration: none;
 }
-.item-title {
+.shortcode-card-title {
     margin: 0;
     line-height: 1.2;
 }
-.item-caption {
+.shortcode-card-caption {
     display: block;
     font-size: .9rem;
     color: #81929D;
     padding-top: .2rem;
 }
-.item-description {
+.shortcode-card-description {
     margin: 1em 0;
     line-height: 1.5;
     flex-grow: 1;
 }
-.item-subtext {
+.shortcode-card-subtext {
     text-align: center;
     font-size: 0.8em;
 }
-.item-button {
+.shortcode-card-button {
     background-color: #FF9900;
     border: 2px solid #FF9900; 
     border-radius: 3px;
@@ -121,123 +102,74 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
-.item-button > a {
+.shortcode-card-button > a {
     color: white;
 }
-.item-button:hover > a {
+.shortcode-card-button:hover > a {
     color: #146EB4;
 }
-.item-button:hover {
+.shortcode-card-button:hover {
     border: 2px solid #146EB4; 
     background-color: white;
+}
+
+/* Item */
+.item {
+    flex-direction: column;
+    max-width: 22rem;
+}
+.item-img-container {
+    padding: .5rem;
+}
+.item-img {
+    border-radius: 0.3rem 0.3rem 0 0;
+    max-height: 15em;
 }
 
 /* amzn-card */
 .amzn-card {
-    /* padding: 20px;
-    margin: 20px 0;
-    border: 1px solid #FF9900;
-    border-left-width: 5px;
-    border-radius: 3px;
-    font-style: initial; */
-    display: flex;
     flex-direction: column;
-    align-items: stretch;
-    flex-grow: 1;
-    max-width: 20rem;
-    margin: 1rem;
-    box-sizing: border-box;
-    background-color: white;
-    text-decoration: none;
-    border-radius: 0.3rem;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.19), 0 0.3rem 0.3rem -0.1rem rgba(0,0,0,0.23);
-    transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1);
-}
-.amzn-card-img-container {
-    position: relative;
 }
 .amzn-card-img {
     border-radius: 0.3rem 0.3rem 0 0;
-    margin: 0 0 -0.28em 0;
-    max-height: 10em;
-    object-fit: cover;
-}
-.amzn-card-body {
-    padding: 1em;
-}
-.amzn-card-title {
-    margin: 0;
-    line-height: 1.2;
-}
-.amzn-card-text {
-    margin: 1em 0;
-    line-height: 1.5;
-}
-.amzn-card-subtext {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size: 0.8em;
-}
-.amzn-card-subtext > p {
-    margin: 0;
-}
-.amzn-card-subtext > p + p {
-    margin-left: 1em;
-    padding-left: 1em;
-    word-spacing: 0.5em;
-    border-left: thin solid #7a7b7c;
+    max-height: unset;
+    height: 100%;
 }
 .amzn-card-button {
-    background-color: #FF9900;
-    border: 2px solid #FF9900; 
-    border-radius: 3px;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-.amzn-card-button > a {
-    color: white;
-}
-.amzn-card-button:hover > a {
-    color: #146EB4;
-}
-.amzn-card-button:hover {
-    border: 2px solid #146EB4; 
-    background-color: white;
+    min-width: 16rem;
 }
 
 @media screen and (pointer: coarse) {
- .item-hover {
-    transform: scale(0.95);
-    box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
+    .shortcode-card-hover {
+        transform: scale(0.95);
+        box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
     }
 }
 @media not screen and (pointer: coarse) {
-    .item:hover {
+    .shortcode-card:hover {
         transform: scale(0.97);
         box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
     }
-    .item:active {
-        transform: scale(1);
-    }
-    .amzn-card:hover {
-        transform: scale(0.97);
-        box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
-    }
-    .amzn-card:active {
+    .shortcode-card:active {
         transform: scale(1);
     }
 }
 /* Medium devices (tablets, ~641px and up) */
 @media only screen and (min-width: 40.063em) {
     .item {
-        max-width: 18rem;
+        max-width: 19rem;
+    }
+    .amzn-card {
+        flex-direction: row;
+        max-width: 57rem;
+    }
+    .amzn-card-img {
+        border-radius: 0.3rem 0 0 0.3rem;
+        /* max-height: 15em; */
+        width: 15em;
+    }
+    .amzn-card-button {
+        min-width: 16rem;
+        align-self: flex-end;
     }
 }
