@@ -23,9 +23,9 @@ resources:
   title: "Salón moderno con la pared verde y la televisión en la pared"
   params:
     description: "Salón moderno con la pared verde y la televisión en la pared"
-- name: vogel base
+- name: vogels base
   src: "vogels-base-05l.jpg"
-  title: "Soporte de pared Vogel's Base 05L"
+  title: "Vogel's Base 05 L"
   params:
     description: "Soporte de pared Vogel's Base 05L"
 ---
@@ -40,24 +40,26 @@ Un soporte fijo es exactamente como suena, es fijo y no se puede mover, así que
 
 A continuación, deberás comprobar que el soporte sea capaz de soportar el tamaño y el peso del televisor. Por lo general, esto se indica claramente y debe cumplirse estrictamente. Sería una pena que se nos cayera la televisión por el simple hecho de no haber prestado atención al peso indicado por el fabricante. Hay tanta variedad que el precio no es una excusa.
 
-También necesitarás saber el tamaño VESA de tu televisor. Este es el estándar utilizado para los soportes del televisor y los sistemas de montaje en la pared. La distancia entre los cuatro agujeros de montaje en la parte posterior del televisor es la medida que nos interesa y suele venir en milímetros.
+{{< wide-img src="salon verde" caption="Salón con televisión en la pared" >}}
 
-{{< wide-img src="salon verde" alt="Salón con televisión en la pared" description="Salón con televisión en la pared" >}}
+También necesitarás saber el tamaño VESA de tu televisor. Este es el estándar utilizado para los soportes del televisor y los sistemas de montaje en la pared. La distancia entre los cuatro agujeros de montaje en la parte posterior del televisor es la medida que nos interesa y suele venir en milímetros.
 
 Para calcularlo, mide la distancia entre los orificios de izquierda a derecha para la primera medición y luego de arriba a abajo para la segunda. El resultado es el tamaño VESA de tu televisor. También podrás encontrar estos detalles en el manual de tu televisión. Asegúrate de comprobar que tu televisor es compatible con el soporte que tienes a la vista antes de comprarlo. La mayoría son ajustables, pero vale la pena comprobarlo dos veces.
 
 Por último, antes de empezar a taladrar, también debes comprobar que la pared en la que piensas montarlo soportara el peso de y, si tienes alguna duda, pide consejo a un experto.
 
-{{< small-img src="vogel base" alt="Vogel's base 05L" smartfloat="left" width="250px" >}}
+{{< small-img name="vogels base" smartfloat="left" width="250px" >}}
 
 Por lo general, la mayoría de los televisores son demasiado pesados para fijarlos a una pared de yeso (pladur), y las recomendaciones son que los soportes vayan montados en paredes de tabique, las cuales con más resistentes. Incluso en ese caso, es conveniente que compruebes si hay tuberías, cables y metal escondidos en la pared que has elegido, así que pagar a un profesional para estar más tranquilo puede no ser una mala idea.
 
 Nosotros hemos elegido el soporte  {{< amzn-link "Vogel's Base 05 L" B00E20KOBY >}} que veis a la izquierda, ya que cumplia con lo que buscabamos. Su precio varia desde los 16€ hasta los 23€, dependiendo del tamano. Buscabamos un soporte minimalista que no sobresaliera mucho de la pared para que asi quedara lo mas estetico posible.
 
-Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos de los usuarios que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
+Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
 
-{{< amzn-card name="cover" price="55" >}}
+{{< amzn-card name="vogels base" price="55" title="Nuestra elección" >}}
 
-Test this to me.
+Test this to me. Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos de los usuarios que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
 
 {{< /amzn-card >}}
+
+Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos de los usuarios que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
