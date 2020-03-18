@@ -56,10 +56,11 @@
 }
 .shortcode-card-img-container {
     position: relative;
+    padding: .5rem;
 }
 .shortcode-card-img {
     margin: 0 0 -0.28em 0;
-    object-fit: cover;
+    object-fit: contain;
 }
 .shortcode-card-body {
     display: flex;
@@ -118,9 +119,6 @@
     flex-direction: column;
     max-width: 22rem;
 }
-.item-img-container {
-    padding: .5rem;
-}
 .item-img {
     border-radius: 0.3rem 0.3rem 0 0;
     max-height: 15em;
@@ -129,6 +127,7 @@
 /* amzn-card */
 .amzn-card {
     flex-direction: column;
+    margin: 2rem;
 }
 .amzn-card-img {
     border-radius: 0.3rem 0.3rem 0 0;
