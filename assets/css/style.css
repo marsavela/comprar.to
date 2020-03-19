@@ -115,11 +115,18 @@ p {
     line-height: 1.2;
     margin: 0 0 0.4em 0;
 }
-.post-date {
-    display: block;
-    color: #7a7b7c;
+.post-subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 0.8em;
+    color: #7a7b7c;
+}
+.post-subtext > p {
     margin: 0;
+}
+.post-disclaimer > a {
+    color: #7a7b7c;
 }
 .dropcase > p:first-of-type::first-letter {
     float: left;
