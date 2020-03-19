@@ -1,5 +1,6 @@
 ---
 title: "Los mejores soportes de televisión para la pared en 2020"
+url: "los-mejores-soportes-de-television-para-la-pared-en-2020"
 date: 2020-03-15T21:22:44+01:00
 categories: ["Casa", "Decoración"]
 tags: ["televisión", "pared", "casa", "salón", "decoración", "soporte de pared", "Vogel's", "Perlegear", "Perlesmith", "VonHaus"]
