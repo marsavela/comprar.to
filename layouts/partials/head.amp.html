@@ -6,6 +6,7 @@
   <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}{{end}}" />
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/schema.html" . }}
   {{ if (fileExists "static/apple-touch-icon.png") -}}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   {{ end -}}
