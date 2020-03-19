@@ -65,7 +65,7 @@ Un soporte fijo es exactamente como suena, es fijo y no se puede mover, así que
 
 A continuación, deberás comprobar que el soporte sea capaz de soportar el tamaño y el peso de la televisión. Por lo general, esto se indica claramente y debe cumplirse estrictamente. Sería una pena que se nos cayera la televisión por el simple hecho de no haber prestado atención al peso indicado por el fabricante. Hay tanta variedad que el precio no es una excusa.
 
-{{< wide-img src="salon verde" caption="Salón con la televisión en la pared" >}}
+{{< wide-img src="salon verde" >}}
 
 También necesitarás saber el tamaño VESA de tu televisión. Este es el estándar utilizado para los soportes de la televisión y los sistemas de montaje en la pared. La distancia entre los cuatro agujeros de montaje en la parte posterior de la televisión es la medida que nos interesa y suele venir en milímetros.
 

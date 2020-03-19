@@ -1,8 +1,5 @@
 </article>
-<!-- <div class="figure">
-  <img class="figure-img" src="{{ .Get "src" }}" {{ with (.Get "alt") }}alt="{{ . }}"{{ end }} />{{ with (.Get "description") }}<span class="caption">{{ . }}</span>{{ end }}
-</div> -->
-<picture class="figure {{ if eq .Params.clear "true" -}} clear {{- end }}">
+<picture class="wide-img-container{{ if eq .Params.clear "true" -}} clear {{- end }}">
     {{ if (fileExists (printf "%s/%s" "content" (replace (.Get "src") (path.Ext (.Get "src")) ".webp"))) -}}
         <source srcset="{{ replace (.Get "src") (path.Ext (.Get "src")) ".webp" | absURL }}" type="image/webp">
     {{- end }}
@@ -14,19 +11,17 @@
         {{- end }}
         {{ $resized := $image.Resize (printf "%sx Lanczos" ($.Scratch.Get "imgwidth")) }}
         <source srcset="{{ $resized.Permalink }}">
-        <img src="{{ $resized.Permalink }}" class="figure-img"
+        <img src="{{ $resized.Permalink }}"
         {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
         {{ else }} alt="{{ $image.Title }}"
         {{ end -}}
-            
         />
     {{ else }}
         <source srcset="{{ $image.Permalink }}">
-        <img src="{{ $image.Permalink }}" class="figure-img"
+        <img src="{{ $image.Permalink }}"
             {{- if $image.Params.description }} alt="{{ $image.Params.description }}"
             {{ else }} alt="{{ $image.Title }}"
             {{ end -}}
-            
         />
     {{- end }}
     {{ with (.Get "caption") }}<span class="caption">{{ . }}</span>{{ end }}

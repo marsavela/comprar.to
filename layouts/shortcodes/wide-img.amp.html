@@ -1,4 +1,5 @@
 </article>
+<div class="wide-img-container{{ if eq .Params.clear "true" -}} clear {{- end }}">
     {{ $image := $.Page.Resources.GetMatch (.Get "src") }}
     {{ if or (gt $image.Width 800) (and (isset .Params "width") (gt $image.Width (.Get "width"))) -}}
         {{ $.Scratch.Set "imgwidth" "800" }}
@@ -6,17 +7,19 @@
             {{ $.Scratch.Set "imgwidth" (trim (.Get "width") "px") }}
         {{- end }}
         {{ $resized := $image.Resize (printf "%sx Lanczos" ($.Scratch.Get "imgwidth")) }}
-        <amp-img src="{{ $resized.Permalink }}" class="figure-img"
-        {{ if .Params.description }} alt="{{ $image.Params.description }}"
+        <amp-img src="{{ $resized.Permalink }}"
+        {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
         {{ else }} alt="{{ $image.Title }}"
         {{ end -}}
-        height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive">
+        height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
+        />
     {{ else }}
-        <amp-img src="{{ $image.Permalink }}" class="figure-img"
-        {{ if .Params.description }} alt="{{ $image.Params.description }}"
+        <amp-img src="{{ $image.Permalink }}"
+        {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
         {{ else }} alt="{{ $image.Title }}"
         {{ end -}} 
-        height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive">
-        {{ with (.Get "caption") }}<span class="caption">{{ . }}</span>{{ end }}
+        height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
+        />
     {{- end }}
+</div>
 <article class="post side-padding">

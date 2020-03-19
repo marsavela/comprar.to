@@ -21,15 +21,13 @@
 }
 
 /* wide-img */
-.figure .caption {
+.wide-img-container>.caption {
     display: block;
     font-size: .8rem;
     color: #81929d;
     text-align: center;
     /* font-style: italic; */
-    margin-top: -1rem;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-top: .3rem;
 }
 
 /* Table Item */
