@@ -1,6 +1,7 @@
 <footer class="end-nav side-padding">
   <div class="footer-container">
-    {{ now.Year }} comprar.to | <a href="{{ "politica-cookies" | relURL }}">Politica de cookies</a> - <a href="{{ "aviso-legal" | relURL }}">Aviso legal</a>
+    <p>{{ now.Year }} comprar.to</p>
+    <p><a href="{{ "politica-cookies" | relURL }}">Politica de cookies</a> - <a href="{{ "aviso-legal" | relURL }}">Aviso legal</a></p>
   </div>
 {{ if .Params.ga.async }}
     {{ template "_internal/google_analytics_async.html" . }}
