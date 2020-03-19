@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legals - Comprar Todo Lo Que Me Gusta</title>
+    <link>https://comprar.to/legal/</link>
+    <description>Recent content in Legals on Comprar Todo Lo Que Me Gusta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Thu, 19 Mar 2020 19:13:04 +0100</lastBuildDate>
+    
+        <atom:link href="https://comprar.to/legal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

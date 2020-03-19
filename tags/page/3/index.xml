@@ -5,11 +5,18 @@
     <description>Recent content in Tags on Comprar Todo Lo Que Me Gusta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 15 Mar 2020 21:22:44 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 19:13:04 +0100</lastBuildDate>
     
         <atom:link href="https://comprar.to/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>compra</title>
+      <link>https://comprar.to/tags/compra/</link>
+      <pubDate>Tue, 10 Mar 2020 17:25:47 +0100</pubDate>
+      
+      <guid>https://comprar.to/tags/compra/</guid>
+      <description></description>
+    </item><item>
       <title>mejor</title>
       <link>https://comprar.to/tags/mejor/</link>
       <pubDate>Tue, 10 Mar 2020 17:25:47 +0100</pubDate>
@@ -43,13 +50,6 @@
       <pubDate>Tue, 10 Mar 2020 17:25:47 +0100</pubDate>
       
       <guid>https://comprar.to/tags/sandisk/</guid>
-      <description></description>
-    </item><item>
-      <title>telefono</title>
-      <link>https://comprar.to/tags/telefono/</link>
-      <pubDate>Tue, 10 Mar 2020 17:25:47 +0100</pubDate>
-      
-      <guid>https://comprar.to/tags/telefono/</guid>
       <description></description>
     </item>
   </channel>

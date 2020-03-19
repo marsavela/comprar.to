@@ -5,11 +5,18 @@
     <description>Recent content in Tags on Comprar Todo Lo Que Me Gusta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 15 Mar 2020 21:22:44 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 19:13:04 +0100</lastBuildDate>
     
         <atom:link href="https://comprar.to/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Legal</title>
+      <link>https://comprar.to/tags/legal/</link>
+      <pubDate>Thu, 19 Mar 2020 19:13:04 +0100</pubDate>
+      
+      <guid>https://comprar.to/tags/legal/</guid>
+      <description></description>
+    </item><item>
       <title>casa</title>
       <link>https://comprar.to/tags/casa/</link>
       <pubDate>Sun, 15 Mar 2020 21:22:44 +0100</pubDate>
@@ -43,13 +50,6 @@
       <pubDate>Sun, 15 Mar 2020 21:22:44 +0100</pubDate>
       
       <guid>https://comprar.to/tags/perlesmith/</guid>
-      <description></description>
-    </item><item>
-      <title>salón</title>
-      <link>https://comprar.to/tags/sal%C3%B3n/</link>
-      <pubDate>Sun, 15 Mar 2020 21:22:44 +0100</pubDate>
-      
-      <guid>https://comprar.to/tags/sal%C3%B3n/</guid>
       <description></description>
     </item>
   </channel>
