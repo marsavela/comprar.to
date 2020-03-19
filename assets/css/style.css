@@ -324,7 +324,7 @@ blockquote p {
 }
 ul,
 ol {
-    padding-left: 1.6em; 
+    padding-left: 1.6em;
 }
 li ul, li ol {
     padding-left: 1em;
@@ -375,7 +375,12 @@ tr:nth-child(even) td {
 }
 footer {
     padding: 2em 0;
-    margin: 2em 0 0 0;
+}
+.footer-container {
+    background-color: white;
+    text-align: center;
+    padding: .4em 0;
+    border-radius: 0.3rem;
 }
 @media screen and (pointer: coarse) {
  .card-hover {
