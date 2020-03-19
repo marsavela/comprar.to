@@ -386,13 +386,14 @@ footer {
 .footer-container {
     background-color: white;
     text-align: center;
-    padding: .4em 0;
+    padding: 1em 0;
     border-radius: 0.3rem;
+    font-size: .8em;
 }
 @media screen and (pointer: coarse) {
- .card-hover {
-    transform: scale(0.95);
-    box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
+    .card-hover {
+        transform: scale(0.95);
+        box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.16), 0 0.15rem 0.3rem -0.04rem rgba(0, 0, 0, 0.23);
     }
 }
 @media not screen and (pointer: coarse) {
