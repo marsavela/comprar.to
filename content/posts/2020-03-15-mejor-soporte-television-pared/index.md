@@ -55,7 +55,7 @@ resources:
     description: "Soporte de pared Perlesmith PSMFK4-E"
 ---
 
-Así que has decidido montar tu televisión en la pared. Puede ser porque no tienes espacio para un mueble, o simplemente porque prefieres la estética de una televisión fijado a la pared, o para que la televisión no se caiga cuando un niño pequeño lo golpee.
+Así que has decidido montar tu televisión en la pared. Puede ser porque no tienes espacio para un mueble, o simplemente porque prefieres la estética de una televisión fijado a la pared, o para que la televisión no se caiga cuando un niño pequeño lo golpee. Comprar un soporte de pared puede darte dolor de cabeza si no lo hacer bien.
 
 <!--more-->
 
@@ -77,9 +77,9 @@ Por último, antes de empezar a taladrar, también debes comprobar que la pared 
 
 Por lo general, la mayoría de las televisiones son demasiado pesados para fijarlos a una pared de yeso (pladur), y las recomendaciones son que los soportes vayan montados en paredes de tabique, las cuales con más resistentes. Incluso en ese caso, es conveniente que compruebes si hay tuberías, cables y metal escondidos en la pared que has elegido, así que pagar a un profesional para estar más tranquilo puede no ser una mala idea.
 
-Nosotros hemos elegido el soporte  {{< amzn-link "Vogel's Base 05 L" B00E20KOBY >}} que veis a la izquierda, ya que cumplía con lo que buscábamos. Su precio varía desde los 16€ hasta los 23€, dependiendo del tamaño. Buscábamos un soporte minimalista que no sobresaliera mucho de la pared para que así quedara lo más estético posible.
+Nosotros hemos comprado el soporte  {{< amzn-link "Vogel's Base 05 L" B00E20KOBY >}} que veis a la izquierda, ya que cumplía con lo que buscábamos. Su precio varía desde los 16€ hasta los 23€, dependiendo del tamaño. Buscábamos un soporte minimalista que no sobresaliera mucho de la pared para que así quedara lo más estético posible.
 
-Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
+Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos. 
 
 {{< amzn-card name="perlegear pgmfk6" price="26" title="El más popular" id="B01MZ6ZYU1" >}}
 Este modelo de Perlegear es el más vendido en Amazon, y con razón. Es un producto muy bueno que junto con todos los productos que lo acompañan, hacen un paquete muy completo. Está diseñado para funcionar con la gran mayoría de tamaños VESA y te permitirá ajustar la televisión a tu gusto, ya que se inclina y se gira.
