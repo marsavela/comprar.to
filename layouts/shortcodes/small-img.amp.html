@@ -1,7 +1,4 @@
 <div class="small-pic {{ if eq .Params.clear "true" -}} clear {{- end }}">
-    {{ if (fileExists (printf "%s/%s" "content" (replace (.Get "src") (path.Ext (.Get "src")) ".webp"))) -}}
-        <source srcset="{{ replace (.Get "src") (path.Ext (.Get "src")) ".webp" | absURL }}" type="image/webp">
-    {{- end }}
     {{ $image := $.Page.Resources.GetMatch (.Get "name") }}
     {{ if or (gt $image.Width 800) (and (isset .Params "width") (gt $image.Width (.Get "width"))) -}}
         {{ $.Scratch.Set "imgwidth" "800" }}
@@ -9,7 +6,6 @@
             {{ $.Scratch.Set "imgwidth" (trim (.Get "width") "px") }}
         {{- end }}
         {{ $resized := $image.Resize (printf "%sx Lanczos" ($.Scratch.Get "imgwidth")) }}
-        <source srcset="{{ $resized.Permalink }}">
         <amp-img src="{{ $resized.Permalink }}" class="small-img {{ if isset .Params "smartfloat" -}}
                 {{- if eq .Params.smartfloat "left" -}}
                     smartfloat-left
@@ -22,7 +18,6 @@
             height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
         />
     {{ else }}
-        <source srcset="{{ $image.Permalink }}">
         <amp-img src="{{ $image.Permalink }}" class="small-img {{ if isset .Params "smartfloat" -}}
             {{- if eq .Params.smartfloat "left" -}}
                 smartfloat-left
