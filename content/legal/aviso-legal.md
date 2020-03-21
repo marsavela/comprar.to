@@ -9,6 +9,8 @@ toc: false
 capFirst: false
 displayInList: false
 draft: false
+outputs:
+- html
 ---
 ## Política de privacidad
 comprar.to te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por la navegación o contratación de servicios a través del sitio Web.

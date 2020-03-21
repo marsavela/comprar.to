@@ -9,6 +9,8 @@ toc: false
 capFirst: false
 displayInList: false
 draft: false
+outputs:
+- html
 ---
 
 Te lo ponemos muy fácil. 👍 comprar.to no utiliza cookies. No guardamos ningún tipo de cookie ni tampoco rastreamos a nuestros usuarios.
