@@ -9,13 +9,13 @@ displayInMenu: false
 displayInList: true
 draft: false
 images:
-- Galaxy-S8-sd.jpg
-- lexar-professional-32-gb-microsd-card.jpg
-- sandisk-extreme-32gb.jpg
-- sandisk-16gb-render.jpg
-- samsung-pro-endurance-cropped.jpg
-- samsung-evo-select-32gb-crop.jpg
-- pny-pro-elite-cropped.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/Galaxy-S8-sd.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/lexar-professional-32-gb-microsd-card.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/sandisk-extreme-32gb.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/sandisk-16gb-render.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/samsung-pro-endurance-cropped.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/samsung-evo-select-32gb-crop.jpg
+- las-mejores-tarjetas-microsd-para-android-en-2020/pny-pro-elite-cropped.jpg
 resources:
 - name: cover
   src: "Galaxy-S8-sd.jpg"

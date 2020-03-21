@@ -10,13 +10,13 @@ displayInMenu: false
 displayInList: true
 draft: false
 images:
-- clean-livingroom.jpg
-- living-room-green.jpg
-- perlegear-pgmfk6.jpg
-- vogels-base-05l.jpg
-- vonhaus-05096.jpg
-- vogels-wall-2145.jpg
-- perlesmith-psmfk4-e.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/clean-livingroom.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/living-room-green.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/perlegear-pgmfk6.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/vogels-base-05l.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/vonhaus-05096.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/vogels-wall-2145.jpg
+- los-mejores-soportes-de-television-para-la-pared-en-2020/perlesmith-psmfk4-e.jpg
 resources:
 - name: cover
   src: "clean-livingroom.jpg"
@@ -79,7 +79,7 @@ Por lo general, la mayoría de las televisiones son demasiado pesados para fijar
 
 Nosotros hemos comprado el soporte  {{< amzn-link "Vogel's Base 05 L" B00E20KOBY >}} que veis a la izquierda, ya que cumplía con lo que buscábamos. Su precio varía desde los 16€ hasta los 23€, dependiendo del tamaño. Buscábamos un soporte minimalista que no sobresaliera mucho de la pared para que así quedara lo más estético posible.
 
-Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos. 
+Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
 
 {{< amzn-card name="perlegear pgmfk6" price="26" title="El más popular" id="B01MZ6ZYU1" >}}
 Este modelo de Perlegear es el más vendido en Amazon, y con razón. Es un producto muy bueno que junto con todos los productos que lo acompañan, hacen un paquete muy completo. Está diseñado para funcionar con la gran mayoría de tamaños VESA y te permitirá ajustar la televisión a tu gusto, ya que se inclina y se gira.

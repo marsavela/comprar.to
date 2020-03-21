@@ -10,6 +10,8 @@ capFirst: false
 displayInMenu: false
 displayInList: true
 draft: false
+images:
+- todo-ampieza-aqui/todo-ampieza-aqui.jpg
 resources:
 - name: cover
   src: "todo-ampieza-aqui.jpg"
