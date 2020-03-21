@@ -8,6 +8,8 @@ capFirst: true
 displayInMenu: false
 displayInList: true
 draft: true
+images:
+- 
 resources:
 - name: cover
   src: ""
