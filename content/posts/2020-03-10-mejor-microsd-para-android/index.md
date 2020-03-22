@@ -48,17 +48,17 @@ Con la cantidad de contenido que consumimos, es normal que nos quedemos cortos c
 
 {{< amzn-item-table >}}
 
-{{< amzn-item price="14" id="B07CXXBTST" title="La mejor combinación" name="Samsung EVO Select" >}} Esta ha sido nuestra tarjeta preferida por tres razones: es confiable, es rápida y sale a la venta con frecuencia. Está disponible en capacidades de 32 GB a 512 GB, con velocidades de escritura de 128 GB y más de 100 MB/s de lectura y 90 MB/s de velocidad de escritura. {{< /amzn-item>}}
+{{< amzn-item price="14" asin="B07CXXBTST" title="La mejor combinación" name="Samsung EVO Select" >}} Esta ha sido nuestra tarjeta preferida por tres razones: es confiable, es rápida y sale a la venta con frecuencia. Está disponible en capacidades de 32 GB a 512 GB, con velocidades de escritura de 128 GB y más de 100 MB/s de lectura y 90 MB/s de velocidad de escritura. {{< /amzn-item>}}
 
-{{< amzn-item price="22" id="B073K14CVB" title="Ultra asequible" name="SanDisk Ultra" >}} SanDisk tiene tarjetas más potentes, pero para la mayoría de las personas, la Ultra es la respuesta correcta. Tiene velocidades de lectura de hasta 100 MB/s para acceder a películas y música descargadas, y puede comprarlo en tamaños de 16 GB a 512 GB. {{< /amzn-item>}}
+{{< amzn-item price="22" asin="B073K14CVB" title="Ultra asequible" name="SanDisk Ultra" >}} SanDisk tiene tarjetas más potentes, pero para la mayoría de las personas, la Ultra es la respuesta correcta. Tiene velocidades de lectura de hasta 100 MB/s para acceder a películas y música descargadas, y puede comprarlo en tamaños de 16 GB a 512 GB. {{< /amzn-item>}}
 
-{{< amzn-item price="16" id="B07R689SX4" title="Vaya profesional" name="PNY PRO Elite" >}} Esta tarjeta cuenta con velocidades de lectura y escritura de más de 90 MB / s, está disponible en capacidades de 32 GB a 512 GB y es una excelente opción para usuarios avanzados que pretenden usar la tarjeta para almacenar datos de aplicaciones y grabar videos 4K. {{< /amzn-item>}}
+{{< amzn-item price="16" asin="B07R689SX4" title="Vaya profesional" name="PNY PRO Elite" >}} Esta tarjeta cuenta con velocidades de lectura y escritura de más de 90 MB / s, está disponible en capacidades de 32 GB a 512 GB y es una excelente opción para usuarios avanzados que pretenden usar la tarjeta para almacenar datos de aplicaciones y grabar videos 4K. {{< /amzn-item>}}
 
-{{< amzn-item price="19" id="B07CY3QSST" title="Lo aguanta todo" name="Samsung PRO Endurance" >}} Samsung construyó este modelo para grabación y regrabación constante en cámaras de tablero y cámaras de seguridad. Aún así, es excelente para teléfonos con problemas de memoria que escriben constantemente en la tarjeta microSD. Disponible de 32GB a 128GB. {{< /amzn-item>}}
+{{< amzn-item price="19" asin="B07CY3QSST" title="Lo aguanta todo" name="Samsung PRO Endurance" >}} Samsung construyó este modelo para grabación y regrabación constante en cámaras de tablero y cámaras de seguridad. Aún así, es excelente para teléfonos con problemas de memoria que escriben constantemente en la tarjeta microSD. Disponible de 32GB a 128GB. {{< /amzn-item>}}
 
-{{< amzn-item price="22" id="B00U0XG63W" title="Lo mejor para video 4K" name="Lexar Professional 1000x" >}} Esta es una tarjeta rápida que es perfecta para grabar muchos videos 4K y almacenar muchos datos del juego, gracias a esa clasificación de velocidad V60. Puede obtenerlo en tamaños de 32 GB a 256 GB. {{< /amzn-item>}}
+{{< amzn-item price="22" asin="B00U0XG63W" title="Lo mejor para video 4K" name="Lexar Professional 1000x" >}} Esta es una tarjeta rápida que es perfecta para grabar muchos videos 4K y almacenar muchos datos del juego, gracias a esa clasificación de velocidad V60. Puede obtenerlo en tamaños de 32 GB a 256 GB. {{< /amzn-item>}}
 
-{{< amzn-item price="10" id="B06XWMQ81P" title="Opciones de alta capacidad" name="SanDisk Extreme" >}} La clasificación A2 significa que el SanDisk Extreme está optimizado para aplicaciones, y está disponible desde 32GB hasta 1TB ridículamente masivo si necesita mantener toda su vida digital en él. {{< /amzn-item>}}
+{{< amzn-item price="10" asin="B06XWMQ81P" title="Opciones de alta capacidad" name="SanDisk Extreme" >}} La clasificación A2 significa que el SanDisk Extreme está optimizado para aplicaciones, y está disponible desde 32GB hasta 1TB ridículamente masivo si necesita mantener toda su vida digital en él. {{< /amzn-item>}}
 
 {{< /amzn-item-table >}}
 

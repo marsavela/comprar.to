@@ -67,22 +67,22 @@ Nosotros hemos comprado el soporte  {{< amzn-link "Vogel's Base 05 L" B00E20KOBY
 
 Hemos buscado en Internet los soportes de pared mejor valorados a diferentes precios. Aunque no los hemos probado nosotros mismos, creemos que los cientos de comentarios positivos que hemos encontrado a lo largo de nuestra investigación hablan por sí mismos.
 
-{{< amzn-card name="Perlegear PGMFK6" price="26" title="El más popular" id="B01MZ6ZYU1" >}}
+{{< amzn-card name="Perlegear PGMFK6" price="26" title="El más popular" asin="B01MZ6ZYU1" >}}
 Este modelo de Perlegear es el más vendido en Amazon, y con razón. Es un producto muy bueno que junto con todos los productos que lo acompañan, hacen un paquete muy completo. Está diseñado para funcionar con la gran mayoría de tamaños VESA y te permitirá ajustar la televisión a tu gusto, ya que se inclina y se gira.
 {{< /amzn-card >}}
 
-{{< amzn-card name="Vogel's Base 05 L" price="17" title="Nuestra elección" id="B00E20KO9Q" >}}
+{{< amzn-card name="Vogel's Base 05 L" price="17" title="Nuestra elección" asin="B00E20KO9Q" >}}
 Como hemos mencionado antes, este modelo de Vogel's ha sido nuestro favorito por ser de un perfil muy bajo y diseño minimalista. Tiene un gran acabado y da una sensación de calidad. No permite ningún tipo de ajuste una vez montado en la pared, por lo que es necesario planear muy bien el sitio en el que se va a montar.
 {{< /amzn-card >}}
 
-{{< amzn-card name="VonHaus 05/096" price="16" title="Bueno, bonito, barato" id="B01KA3OGAQ" >}}
+{{< amzn-card name="VonHaus 05/096" price="16" title="Bueno, bonito, barato" asin="B01KA3OGAQ" >}}
 Este modelo de VonHaus es una muy buena elección si uno no se quiere perder entre tanta oferta. Es un soporte muy robusto de un perfil bajo que permite también inclinar la televisión. Junto con su increíble precio, hacen de este soporte una muy buena compra.
 {{< /amzn-card >}}
 
-{{< amzn-card name="Vogel's WALL 2145" price="50" title="Pequeño pero matón" id="B013TLDXAA" >}}
+{{< amzn-card name="Vogel's WALL 2145" price="50" title="Pequeño pero matón" asin="B013TLDXAA" >}}
 Soporte de pared con brazo articulado y de color blanco. Perfecto para poner en una habitación y quitarse la televisión de en medio. Tiene pasacables para una instalación limpia y sencilla. Eso sí, algo caro. 😅
 {{< /amzn-card >}}
 
-{{< amzn-card name="Perlesmith PSMFK4-E" price="36" title="Todo lo puede" id="B07KF9TC3J" >}}
+{{< amzn-card name="Perlesmith PSMFK4-E" price="36" title="Todo lo puede" asin="B07KF9TC3J" >}}
 Si buscas un soporte muy resistente pero a la vez no quieres comprometer la flexibilidad, este modelo de Perlesmith lo tiene todo. Aguanta grandes televisiones de gran peso que junto a su gran compatibilidad con multitud de tamaños VESA lo hacen una excelente compra.
 {{< /amzn-card >}}
