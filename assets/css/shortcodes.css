@@ -43,7 +43,7 @@
     display: flex;
     align-items: stretch;
     flex-grow: 1;
-    margin: .5rem;
+    margin: .5rem 0;
     box-sizing: border-box;
     background-color: white;
     text-decoration: none;
@@ -90,7 +90,7 @@
 }
 .shortcode-card-button {
     background-color: #FF9900;
-    border: 2px solid #FF9900; 
+    border: 2px solid #FF9900;
     border-radius: 3px;
     color: white;
     padding: 1rem 0;
@@ -108,7 +108,7 @@
     color: #146EB4;
 }
 .shortcode-card-button:hover {
-    border: 2px solid #146EB4; 
+    border: 2px solid #146EB4;
     background-color: white;
 }
 
@@ -134,6 +134,26 @@
     min-width: 16rem;
 }
 
+/* amzn-float */
+.amzn-float {
+    width: 20rem;
+    flex-direction: column;
+    margin: 0 1.5em 1.5em 0;
+}
+.amzn-float-placeholder {
+    display: block;
+    margin-top: 1.5em;
+}
+.amzn-float-img {
+    width: unset;
+    max-width: 100%;
+    margin: 0 auto 1.5em;
+}
+.amzn-float-title {
+    text-align: center;
+    padding: .5rem 0;
+}
+
 @media screen and (pointer: coarse) {
     .shortcode-card-hover {
         transform: scale(0.95);
@@ -153,10 +173,12 @@
 @media only screen and (min-width: 40.063em) {
     .item {
         max-width: 18rem;
+        margin: .5rem;
     }
     .amzn-card {
         flex-direction: row;
-        max-width: 57rem;
+        /* max-width: 57rem; */
+        margin: 1rem 0;
     }
     .amzn-card-img {
         border-radius: 0.3rem 0 0 0.3rem;
@@ -166,5 +188,13 @@
     .amzn-card-button {
         min-width: 16rem;
         align-self: flex-end;
+    }
+    .amzn-float-right {
+        float: right;
+        margin: 0 0 1.5em 1.5em;
+    }
+    .amzn-float-left {
+        float: left;
+        margin: 0 1.5em 1.5em 0;
     }
 }

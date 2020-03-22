@@ -1,0 +1,32 @@
+<div class="amzn-float-placeholder">
+  <div class="shortcode-card amzn-float {{ if isset .Params "smartfloat" -}}
+  {{- if eq .Params.smartfloat "left" -}}
+    amzn-float-left
+  {{- else if eq .Params.smartfloat "right" -}}
+    amzn-float-right
+  {{- end -}}
+{{- end }}">
+    {{ $image := $.Page.Resources.GetMatch (.Get "name") }}
+    <div class="shortcode-card-img-container">
+      <picture>
+        {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
+        <source srcset="{{ $thumbnail.Permalink }}">
+          <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
+            <img src="{{ $thumbnail.Permalink }}" class="amzn-float-img" {{ with .Params.name -}} alt="{{ . }}" {{- end }}>
+          </a>
+      </picture>
+    </div>
+    <article class="shortcode-card-body">
+      <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
+        <h3 class="shortcode-card-title amzn-float-title">{{ $image.Title }}</h3>
+      </a>
+      {{ if .Get "price" -}}
+      <div class="shortcode-card-button">
+        <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
+          En <b>Amazon.es</b> desde {{ .Get "price" }}€
+        </a>
+      </div>
+      {{- end }}
+    </article>
+  </div>
+</div>
