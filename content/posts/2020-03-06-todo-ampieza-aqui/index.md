@@ -7,7 +7,6 @@ categories: ["Off-Topic"]
 tags: ["Off-Topic"]
 toc: false
 capFirst: false
-displayInMenu: false
 displayInList: true
 draft: false
 images:

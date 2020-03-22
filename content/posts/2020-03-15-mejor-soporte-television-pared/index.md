@@ -6,7 +6,6 @@ categories: ["Casa", "Decoración"]
 tags: ["televisión", "pared", "casa", "salón", "decoración", "soporte de pared", "Vogel's", "Perlegear", "Perlesmith", "VonHaus"]
 toc: false
 capFirst: true
-displayInMenu: false
 displayInList: true
 draft: false
 images:

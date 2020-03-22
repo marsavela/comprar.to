@@ -5,7 +5,6 @@ categories: ["Casa", "Productividad"]
 tags: ["Escritorio", "Trabajo"]
 toc: false
 capFirst: true
-displayInMenu: false
 displayInList: true
 draft: false
 images:

@@ -5,7 +5,6 @@ categories: ["Almacenamiento", "Telefonía"]
 tags: ["microsd", "movil", "telefono", "almacenamiento", "mejor", "compra", "sandisk", "samsung"]
 toc: false
 capFirst: false
-displayInMenu: false
 displayInList: true
 draft: false
 images:
