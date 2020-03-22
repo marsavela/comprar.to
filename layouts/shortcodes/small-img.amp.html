@@ -12,8 +12,7 @@
                 {{- else if eq .Params.smartfloat "right" -}}
                     smartfloat-right
                 {{- end -}}
-            {{- end }}"
-            {{- with $image.Params.description }} alt="{{ . }}" {{ else }} alt="{{ $image.Title }}" {{ end -}}
+            {{- end }}" alt="{{ $image.Title }}"
             {{- with .Get "width" }} style="width: {{ . }};" {{- end -}}
             height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
         />
@@ -24,8 +23,7 @@
             {{- else if eq .Params.smartfloat "right" -}}
                 smartfloat-right
             {{- end -}}
-        {{- end }}"
-        {{- with $image.Params.description }} alt="{{ . }}" {{ else }} alt="{{ $image.Title }}" {{ end -}}
+        {{- end }}" alt="{{ $image.Title }}"
         {{- with .Get "width" }} style="width: {{ . }};" {{- end -}}
         height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
         />

@@ -1,9 +1,9 @@
 </article>
 <picture class="wide-img-container{{ if eq .Params.clear "true" -}} clear {{- end }}">
-    {{ if (fileExists (printf "%s/%s" "content" (replace (.Get "src") (path.Ext (.Get "src")) ".webp"))) -}}
-        <source srcset="{{ replace (.Get "src") (path.Ext (.Get "src")) ".webp" | absURL }}" type="image/webp">
+    {{ if (fileExists (printf "%s/%s" "content" (replace (.Get "name") (path.Ext (.Get "name")) ".webp"))) -}}
+        <source srcset="{{ replace (.Get "name") (path.Ext (.Get "name")) ".webp" | absURL }}" type="image/webp">
     {{- end }}
-    {{ $image := $.Page.Resources.GetMatch (.Get "src") }}
+    {{ $image := $.Page.Resources.GetMatch (.Get "name") }}
     {{ if or (gt $image.Width 800) (and (isset .Params "width") (gt $image.Width (.Get "width"))) -}}
         {{ $.Scratch.Set "imgwidth" "800" }}
         {{ if and (isset .Params "width") (lt (.Get "width") 800) -}}
@@ -11,19 +11,13 @@
         {{- end }}
         {{ $resized := $image.Resize (printf "%sx Lanczos" ($.Scratch.Get "imgwidth")) }}
         <source srcset="{{ $resized.Permalink }}">
-        <img src="{{ $resized.Permalink }}"
-        {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
-        {{ else }} alt="{{ $image.Title }}"
-        {{ end -}}
+        <img src="{{ $resized.Permalink }}" alt="{{ $image.Title }}"
         />
     {{ else }}
         <source srcset="{{ $image.Permalink }}">
-        <img src="{{ $image.Permalink }}"
-            {{- if $image.Params.description }} alt="{{ $image.Params.description }}"
-            {{ else }} alt="{{ $image.Title }}"
-            {{ end -}}
+        <img src="{{ $image.Permalink }}" alt="{{ $image.Title }}"
         />
     {{- end }}
-    {{ with (.Get "caption") }}<span class="caption">{{ . }}</span>{{ end }}
+    {{ with .Params.caption }}<span class="caption">{{ . }}</span>{{ end }}
 </picture>
 <article class="post side-padding">

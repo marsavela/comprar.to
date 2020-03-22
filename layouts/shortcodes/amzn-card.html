@@ -5,17 +5,14 @@
       {{ $thumbnail := $image.Fit "400x300 Lanczos" }}
       <source srcset="{{ $thumbnail.Permalink }}">
       <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
-        <img src="{{ $thumbnail.Permalink }}" class="amzn-card-img"
-        {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
-        {{ else }} alt="{{ $image.Title }}"
-        {{ end -}}>
+        <img src="{{ $thumbnail.Permalink }}" class="amzn-card-img" alt="{{ $image.Title }}">
       </a>
     </picture>
   </div>
   <article class="shortcode-card-body">
     <h3 class="shortcode-card-title">{{ .Get "title" }}</h3>
     <a href="https://www.amazon.es/dp/{{ .Get "id" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
-      <span class="shortcode-card-caption">{{ $image.Title }}</span>
+      <span class="shortcode-card-caption">{{ $image.Name }}</span>
     </a>
     <div class="shortcode-card-description">{{ trim .Inner " \n" | markdownify }}</div>
     {{ if .Get "price" -}}

@@ -1,23 +1,17 @@
 </article>
 <div class="wide-img-container{{ if eq .Params.clear "true" -}} clear {{- end }}">
-    {{ $image := $.Page.Resources.GetMatch (.Get "src") }}
+    {{ $image := $.Page.Resources.GetMatch (.Get "name") }}
     {{ if or (gt $image.Width 800) (and (isset .Params "width") (gt $image.Width (.Get "width"))) -}}
         {{ $.Scratch.Set "imgwidth" "800" }}
         {{ if and (isset .Params "width") (lt (.Get "width") 800) -}}
             {{ $.Scratch.Set "imgwidth" (trim (.Get "width") "px") }}
         {{- end }}
         {{ $resized := $image.Resize (printf "%sx Lanczos" ($.Scratch.Get "imgwidth")) }}
-        <amp-img src="{{ $resized.Permalink }}"
-        {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
-        {{ else }} alt="{{ $image.Title }}"
-        {{ end -}}
+        <amp-img src="{{ $resized.Permalink }}" alt="{{ $image.Title }}"
         height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
         />
     {{ else }}
-        <amp-img src="{{ $image.Permalink }}"
-        {{ if $image.Params.description }} alt="{{ $image.Params.description }}"
-        {{ else }} alt="{{ $image.Title }}"
-        {{ end -}} 
+        <amp-img src="{{ $image.Permalink }}" alt="{{ $image.Title }}"
         height="{{ $image.Height }}" width="{{ $image.Width }}" layout="responsive"
         />
     {{- end }}
