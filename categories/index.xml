@@ -5,23 +5,30 @@
     <description>Recent content in Categories on Comprar Todo Lo Que Me Gusta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Thu, 19 Mar 2020 19:13:04 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2020 09:58:18 +0100</lastBuildDate>
     
         <atom:link href="https://comprar.to/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Casa</title>
+      <link>https://comprar.to/categories/casa/</link>
+      <pubDate>Sun, 22 Mar 2020 09:58:18 +0100</pubDate>
+      
+      <guid>https://comprar.to/categories/casa/</guid>
+      <description></description>
+    </item><item>
+      <title>Productividad</title>
+      <link>https://comprar.to/categories/productividad/</link>
+      <pubDate>Sun, 22 Mar 2020 09:58:18 +0100</pubDate>
+      
+      <guid>https://comprar.to/categories/productividad/</guid>
+      <description></description>
+    </item><item>
       <title>Legal</title>
       <link>https://comprar.to/categories/legal/</link>
       <pubDate>Thu, 19 Mar 2020 19:13:04 +0100</pubDate>
       
       <guid>https://comprar.to/categories/legal/</guid>
-      <description></description>
-    </item><item>
-      <title>Casa</title>
-      <link>https://comprar.to/categories/casa/</link>
-      <pubDate>Sun, 15 Mar 2020 21:22:44 +0100</pubDate>
-      
-      <guid>https://comprar.to/categories/casa/</guid>
       <description></description>
     </item><item>
       <title>Decoración</title>
@@ -43,13 +50,6 @@
       <pubDate>Tue, 10 Mar 2020 17:25:47 +0100</pubDate>
       
       <guid>https://comprar.to/categories/telefon%C3%ADa/</guid>
-      <description></description>
-    </item><item>
-      <title>Off-Topic</title>
-      <link>https://comprar.to/categories/off-topic/</link>
-      <pubDate>Fri, 06 Mar 2020 12:29:20 +0100</pubDate>
-      
-      <guid>https://comprar.to/categories/off-topic/</guid>
       <description></description>
     </item>
   </channel>
