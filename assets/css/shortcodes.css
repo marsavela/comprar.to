@@ -56,10 +56,6 @@
     position: relative;
     padding: .5rem;
 }
-.shortcode-card-img-container img {
-    margin: 0 0 -0.28em 0;
-    object-fit: contain;
-}
 .shortcode-card-body {
     display: flex;
     flex-grow: 1;
@@ -136,22 +132,20 @@
 
 /* amzn-float */
 .amzn-float {
-    width: 20rem;
+    max-width: 20rem;
     flex-direction: column;
-    margin: 0 1.5em 1.5em 0;
 }
 .amzn-float-placeholder {
     display: block;
     margin-top: 1.5em;
 }
 .amzn-float-img {
-    width: unset;
-    max-width: 100%;
-    margin: 0 auto 1.5em;
+    border-radius: .3rem .3rem 0 0;
+    width: 15em;
 }
 .amzn-float-title {
     text-align: center;
-    padding: .5rem 0;
+    padding-bottom: .5rem;
 }
 
 @media screen and (pointer: coarse) {

@@ -12,7 +12,7 @@
         {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
         <source srcset="{{ $thumbnail.Permalink }}">
           <a href="https://www.amazon.es/dp/{{ .Get "asin" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
-            <img src="{{ $thumbnail.Permalink }}" class="amzn-float-img" alt="{{ $image.Title }}">
+            <img src="{{ $thumbnail.Permalink }}" alt="{{ $image.Title }}" class="amzn-float-img">
           </a>
       </picture>
     </div>

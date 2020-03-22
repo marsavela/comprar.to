@@ -11,7 +11,7 @@
     <div class="shortcode-card-img-container">
         {{ $thumbnail := $image.Fit "300x300 Lanczos" }}
           <a href="https://www.amazon.es/dp/{{ .Get "asin" }}/ref=nosim?tag=comprar0c0-21" target="_blank" >
-            <amp-img src="{{ $thumbnail.Permalink }}" class="amzn-float-img" alt="{{ $image.Title }}"
+            <amp-img src="{{ $thumbnail.Permalink }}" alt="{{ $image.Title }}"
             height="{{ $thumbnail.Height }}" width="{{ $thumbnail.Width }}" layout="responsive">
           </a>
     </div>
