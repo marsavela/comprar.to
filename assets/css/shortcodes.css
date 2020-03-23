@@ -132,7 +132,6 @@
 
 /* amzn-float */
 .amzn-float {
-    max-width: 20rem;
     flex-direction: column;
 }
 .amzn-float-placeholder {
