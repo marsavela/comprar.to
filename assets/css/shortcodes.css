@@ -42,7 +42,6 @@
 .shortcode-card {
     display: flex;
     align-items: stretch;
-    flex-grow: 1;
     margin: .5rem 0;
     box-sizing: border-box;
     background-color: white;
@@ -58,7 +57,6 @@
 }
 .shortcode-card-body {
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     padding: 1em;
 }
@@ -122,9 +120,9 @@
     flex-direction: column;
 }
 .amzn-card-img {
-    border-radius: 0.3rem 0.3rem 0 0;
-    max-height: unset;
-    height: 100%;
+    border-radius: .3rem .3rem 0 0;
+    object-fit: cover;
+    height: 17rem;
 }
 .amzn-card-button {
     min-width: 16rem;
@@ -173,9 +171,13 @@
         margin: 1rem 0;
     }
     .amzn-card-img {
-        border-radius: 0.3rem 0 0 0.3rem;
-        /* max-height: 15em; */
+        border-radius: .3rem 0 0 .3rem;
+        /* max-height: unset; */
         width: 15em;
+        height: 100%;
+        max-height: -moz-available;          /* WebKit-based browsers will ignore this. */
+        max-height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+        max-height: fill-available;
     }
     .amzn-card-button {
         min-width: 16rem;
